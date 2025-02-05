@@ -25,7 +25,7 @@ comments: false
 
 ### **🛠️ Skills & Expertise**
 - **Programming Languages**: Python, C, C++, Assembly
-- **Tools & Frameworks**: IDA Pro, Ghidra, Radare2, JTAG, ESP-IDF, Docker, Wireshark, Metasploit
+- **Tools & Frameworks**: IDA Pro, Ghidra, Radare2, JTAG, ESP-IDF, Docker, Wireshark, Metasploit , Qemu , Firmadyne 
 - **Platforms**: Linux, Windows, ESP32, ARM, Embedded Systems, IoT Networks
 - **Security Areas**:
   - **Penetration Testing** for **IoT Devices**
