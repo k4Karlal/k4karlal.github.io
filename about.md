@@ -33,6 +33,7 @@ comments: false
   - **Exploit Development** and **Payload Crafting**
   - **Network Security** and **Packet Analysis**
   - **Vulnerability Research** and **Security Audits**
+  - - **Web Vulnerability** and **Web Security**
   
 ---
 
