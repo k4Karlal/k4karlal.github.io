@@ -1,0 +1,33 @@
+---
+title: Categories
+permalink: /tags/
+layout: page
+excerpt: Sorted articles by tags.
+---
+
+<div class="archive-tags">
+  <p>Explore articles sorted by categories. Click a tag below to view relevant posts.</p>
+  {%- for tag in site.tags -%} 
+    {% capture name %}{{ tag | first }}{% endcapture %}
+    <a style="color: #5CC0F8;" class="tag-item" href="#{{name}}" aria-label="View posts tagged with {{name}}">{{ name }}</a>
+  {%- endfor -%}
+</div>
+
+{%- for tag in site.tags -%}
+  {%- capture name -%}{{ tag | first }}{%- endcapture -%}
+  <section id="{{ name }}">
+    <h2>{{ name | upcase }}</h2>
+    {%- if site.tags[name].size == 0 -%}
+      <p>No posts available under this tag yet. Check back later!</p>
+    {%- else -%}
+      {%- for post in site.tags[name] -%}
+        <article class="post-item" id="results-container">
+          <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <h3 class="post-item-title">
+            <a href="{{ post.url }}">{{ post.title | escape }}</a>
+          </h3>
+        </article>
+      {%- endfor -%}
+    {%- endif -%}
+  </section>
+{%- endfor -%}
