@@ -36,6 +36,11 @@ comments: false
   
 ---
 
+
+### **📚 Education **
+🎓 Bachelors in Cybersecurity (2023 - 2027) — ** Air University **
+🎓 Intermediate in Computer Science — ** Peace College **
+
 ### **🚀 Experience & Career Highlights**
 - **Hirg (Hardware Integrity Research Group)** | *2024 - Present*  
   Working on **IoT security research**, conducting comprehensive **vulnerability assessments**, and performing **firmware analysis** to strengthen the security posture of various **embedded systems** and **IoT devices**. My research aims at identifying flaws in **hardware designs** and improving security measures in **IoT** environments.
