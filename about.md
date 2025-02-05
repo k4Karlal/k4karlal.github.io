@@ -38,7 +38,8 @@ comments: false
 
 
 ### **📚 Education **
-🎓 Bachelors in Cybersecurity (2023 - 2027) — ** Air University **
+🎓 Bachelors in Cybersecurity (2023 - 2027) — ** Air University **   
+
 🎓 Intermediate in Computer Science — ** Peace College **
 
 ### **🚀 Experience & Career Highlights**
