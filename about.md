@@ -39,8 +39,9 @@ comments: false
 
 ### **📚 Education **
 🎓 Bachelors in Cybersecurity (2023 - 2027) — ** Air University **   
-
 🎓 Intermediate in Computer Science — ** Peace College **
+
+
 
 ### **🚀 Experience & Career Highlights**
 - **Hirg (Hardware Integrity Research Group)** | *2024 - Present*  
