@@ -1,0 +1,40 @@
+<footer class="footer">
+  <!-- Customize the footer items as per your requirement -->
+  <!-- Example of link to your resume (uncomment and modify as needed) -->
+  <!-- <a class="footer_item" href="javascript::void(0)">resume</a> -->
+  <!-- Example of RSS feed link (uncomment and modify as needed) -->
+  <!-- <a class="footer_item" href="/feed.xml">rss</a> -->
+
+  <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
+
+  <small class="footer_copyright">
+    <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noreferrer noopener">
+      klisé
+    </a>
+    theme modified by Karlal
+  </small>
+</footer>
+
+<!-- Link to main.js (this file can contain your custom scripts) -->
+<script src="/assets/js/main.js" defer="defer"></script>
+
+<!-- Google Analytics script, enabled if 'google_analytics' is present -->
+{%- if page.google_analytics -%}
+  <script src="/assets/js/galite.js"></script>
+  <script>
+    var galite = galite || {};
+    galite.UA = "{{ site.google_analytics }}";
+  </script>
+{%- endif -%}
+
+<!-- Archive search functionality, enabled if on the archive page -->
+{%- if page.url == '/archive/' -%}
+  <script src="/assets/js/search.min.js"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '/assets/search.json',
+    });
+  </script>
+{%- endif -%}

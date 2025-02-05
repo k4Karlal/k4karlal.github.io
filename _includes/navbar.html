@@ -1,0 +1,70 @@
+<!-- font change via hackthebox -->
+<div hidden>
+  <script src="https://www.hackthebox.eu/badge/190694"></script>
+</div>
+
+<div class="navbar" role="navigation">
+  <nav class="menu">
+    <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+    <label for="menu-trigger">
+      <span class="menu-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+          />
+        </svg>
+      </span>
+    </label>
+    <a id="mode">
+      <img class="w-8 h-8 p-1 rounded-full ring-2 ring-gray-300 dark:ring-blue-400" src="/assets/img/avatar.jpg" alt="Bordered avatar">
+    </a>
+
+    <div class="trigger">
+      <div class="trigger-container">
+        {%- assign url = page.url -%}
+        {%- assign menus = site.data.menus -%}
+        {%- if menus %} 
+          {%- for menu in menus -%} 
+            {%- if url == menu.url -%}
+              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
+            {%- else -%} 
+              {%- if menu.external -%}
+                <a
+                  class="menu-link"
+                  href="{{ menu.url }}"
+                  target="_blank"
+                  rel="noopener"
+                  >{{ menu.title }}</a
+                >
+              {%- else -%}
+                <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
+              {%- endif -%} 
+            {%- endif -%} 
+          {%- endfor -%}
+        {%- else -%}
+          <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">home</a>
+          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">about</a>
+        {%- endif -%}
+
+        <!-- icons -->
+        <a class="menu-link rss" target="_blank" href="https://github.com/k4Karlal">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a class="menu-link rss" target="_blank" href="https://discordapp.com/users/karlal_01">
+          <ion-icon name="logo-discord"></ion-icon>
+        </a>
+       
+        <a class="menu-link rss" target="_blank" href="https://linkedin.com/in/talha-bilal-karlal">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        
+
+      </div>
+    </div>
+  </nav>
+</div>
