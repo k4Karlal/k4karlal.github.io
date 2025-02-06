@@ -44,33 +44,22 @@ comments: false
 
 
 
-### **🚀 Experience & Career Highlights**
-- **Hirg (Hardware Integrity Research Group)** | *2024 - Present*  
-  Working on **IoT security research**, conducting comprehensive **vulnerability assessments**, and performing **firmware analysis** to strengthen the security posture of various **embedded systems** and **IoT devices**. My research aims at identifying flaws in **hardware designs** and improving security measures in **IoT** environments.
+### **Currently Working With**
 
-- **Outsec** | *2024 - Present*  
-  Contributing to **cybersecurity research** and providing **penetration testing** services for **IoT device security**. My role involves performing security audits, finding vulnerabilities, and developing practical solutions for IoT systems.
+- **[Hirg (Hardware Integrity Research Group)](https://www.hirg.online/)** | *2024 - Present*  
+  Conducting IoT security research, vulnerability assessments, and firmware analysis to enhance embedded system security.
 
 ---
 
 ### **🔨 Notable Projects**
-- **ESP32-based Security Projects**  
-  Developed and secured **ESP32**-based **IoT applications** by implementing **secure communication protocols**, performing **penetration testing**, and working on **device hardening** techniques to improve security.
-
-- **Shellcode Process Injection Tool**  
-  A Windows-based tool to inject shellcode via **process manipulation**. This project aims to demonstrate exploitation techniques, focusing on **bypass methods** and **payload execution** in different Windows environments.
-
-- **Toralizer**  
-  A tool designed to enhance the security of **TOR-based networks** by protecting packet transmissions. This project focuses on **securing** and **obfuscating** network traffic within the TOR ecosystem to prevent eavesdropping and mitigate attacks. It ensures privacy by **encrypting** and **shielding** packets, contributing to the overall safety and anonymity of users in the TOR network.
-
-
-- **Packet Sniffer**  
-  A **Python3-based packet sniffer** capable of monitoring various types of network traffic, such as **TCP**, **UDP**, **HTTP**, **FTP**, **ICMP**, **SSH**, and **SFTP**. This tool offers in-depth **network analysis**, crucial for identifying security flaws in **network communications**.
-
-- **Maze Solver (C++)**  
-  Designed and implemented a **C++** maze-solving algorithm using techniques like **BFS**, **DFS**, and **A\* algorithm**. This project also visualizes the maze-solving process and explores optimal paths for efficient solutions.
+- **ESP32-based Security Projects** - Developed and secured ESP32 IoT applications using secure protocols, penetration testing, and device hardening techniques.
+- **Shellcode Process Injection Tool** - A Windows tool demonstrating process manipulation for shellcode injection, focusing on bypass and payload execution techniques.
+- **Toralizer** - Enhanced TOR-based network security by encrypting and obfuscating packets to ensure privacy and mitigate attacks.
+- **Packet Sniffer** - A Python3-based tool for monitoring and analyzing network traffic across multiple protocols to identify security flaws.
+- **Maze Solver (C++)** - Implemented BFS, DFS, and A* algorithms in C++ for efficient maze-solving with visualization of optimal paths.
 
 ---
+
 
 ### **🏆 Achievements & Recognitions**
 - **Top 10 in Ignite CTF Qualification**  
