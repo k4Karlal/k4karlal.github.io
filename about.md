@@ -46,7 +46,7 @@ comments: false
 
 ### **Currently Working With**
 
-- **[Hirg (Hardware Integrity Research Group)](https://www.hirg.online/)** | *2024 - Present*  
+- **[Hirg](https://www.hirg.online/)** | *2024 - Present*  
   Conducting IoT security research, vulnerability assessments, and firmware analysis to enhance embedded system security.
 
   ----
