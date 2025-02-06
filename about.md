@@ -46,10 +46,10 @@ comments: false
 
 ### **Currently Working With**
 
-- **<a href="https://www.hirg.online/" target="_blank" style="text-decoration: none; font-weight: bold;">Hirg (Hardware Integrity Research Group)</a>** | *2024 - Present*  
+- <strong><a href="https://www.hirg.online/" target="_blank" style="text-decoration: none; font-weight: bold;">Hirg (Hardware Integrity Research Group)</a></strong> | <em>2024 - Present</em>  
   Conducting IoT security research, vulnerability assessments, and firmware analysis to enhance embedded system security.
 
---
+----
 
 ### **🔨 Notable Projects**
 - **ESP32-based Security Projects** - Developed and secured ESP32 IoT applications using secure protocols, penetration testing, and device hardening techniques.
